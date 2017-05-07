@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CUDA</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="media.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section id="header-section">
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cuda-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="cuda-menu">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li> 
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <!-- --------------Navbar End------------------ -->
+
+  <!-- --------------Slider Start------------------ -->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+ 
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="itemh1">
+      <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+      <button class="btn btn-custom">Work with us</button>
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div> 
+</div>
+</section>
+
+<!-- --------------Service Start------------------ -->
+<section id="service-section">
+  <div class="container text-center">
+    <div class="header">
+      <h1 class="text-uppercase">Services We Provide</h1>
+      <p>We are working with both individuals and businesses from all over the <br>globe to create awesome websites and applications.</p>
+    </div> 
+
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="flag-icon.png" class="img-responsive" alt="flag-icon">
+          <h3>Branding</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, doloremque illo.</p>
+        </div>
+         <div class="col-sm-3">
+          <img src="crayon-icon.png" class="img-responsive" alt="crayon-icon">
+          <h3>Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, doloremque illo.</p>
+        </div>
+         <div class="col-sm-3">
+          <img src="gears-icon.png" class="img-responsive" alt="gears-icon">
+          <h3>Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, doloremque illo.</p>
+        </div>
+         <div class="col-sm-3">
+          <img src="rocket-icon.png" class="img-responsive" alt="rocket-icon">
+          <h3>Rocket Science</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptas, doloremque illo.</p>
+        </div> <!-- row end-->
+
+      </div> 
+  </div>
+</section>
+<!-- --------------Service End------------------ -->
+
+<!-- --------------Team Start------------------ -->
+
+<section id="team-section">
+  <div class="container text-center">
+    <div class="header">
+      <h1 class="text-uppercase">Meet Our Beautiful Team</h1>
+      <p>We are a small team of designers and developers, who help brand</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="anne_hathaway200px.jpg" class="img-circle" alt="anne_hathaway">
+        <h3>Anne Hathaway</h3>
+        <h4>CEO / Marketing Guru</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum molestiae similique? Consectetur, dolorem, officia. Repudiandae, labore, quidem</p>
+        <ul class="list-inline list-unstyled">
+          <li><a href="https://www.facebook.com/"><img src="fb.png"></a></li>
+          <li><a href="https://twitter.com/"><img src="twitter.png"></a></li>
+          <li><a href=""><img src="pinterest.png"></a></li>
+          <li><a href=""><img src="rss.png"></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <img src="kate_upton_200px.jpg" class="img-circle" class="img-responsive" alt="kate_upton">
+        <h3>Kate Upton</h3>
+        <h4>Creative Director</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum molestiae similique? Consectetur, dolorem, officia. Repudiandae, labore, quidem</p>
+        <ul class="list-inline list-unstyled">
+          <li><a href="https://www.facebook.com/"><img src="fb.png"></a></li>
+          <li><a href="https://twitter.com/"><img src="twitter.png"></a></li>
+          <li><a href=""><img src="pinterest.png"></a></li>
+          <li><a href=""><img src="rss.png"></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <img src="olivia_wilde_200px.jpg" class="img-circle" class="img-responsive" alt="olivia_wilde">
+        <h3>Olivia Wilde</h3>
+        <h4>Lead Designer</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum molestiae similique? Consectetur, dolorem, officia. Repudiandae, labore, quidem</p>
+        <ul class="list-inline list-unstyled">
+          <li><a href="https://www.facebook.com/"><img src="fb.png"></a></li>
+          <li><a href="https://twitter.com/"><img src="twitter.png"></a></li>
+          <li><a href=""><img src="pinterest.png"></a></li>
+          <li><a href=""><img src="rss.png"></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <img src="ashley_greene_200px.jpg" class="img-circle" class="img-responsive" alt="ashley_greene">
+        <h3>Ashley Greene</h3>
+        <h4>SEO / Developer</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum molestiae similique? Consectetur, dolorem, officia. Repudiandae, labore, quidem</p>
+        <ul class="list-inline list-unstyled">
+          <li><a href="https://www.facebook.com/"><img src="fb.png"></a></li>
+          <li><a href="https://twitter.com/"><img src="twitter.png"></a></li>
+          <li><a href=""><img src="pinterest.png"></a></li>
+          <li><a href=""><img src="rss.png"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- --------------Team End------------------ -->
+
+<!-- --------------Skill Start------------------ -->
+
+<section id="skill-section">
+   <div class="container text-center">
+    <div class="header">
+      <h1 class="text-uppercase">We Got Skills!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+      <div class="skill">
+        <img src="progress1.png" class="img-responsive" alt="progress">
+        <span>90%</span>
+      </div>
+        <h3 class="text-uppercase">Web design</h3>
+      </div>
+      
+      <div class="col-sm-3">
+      <div class="skill">
+        <img src="progress2.png" class="img-responsive" alt="progress">
+        <span>75%</span>
+      </div>
+        <h3 class="text-uppercase">HTML / CSS</h3>
+      </div>
+      <div class="col-sm-3">
+      <div class="skill">
+        <img src="progress3.png" class="img-responsive" alt="progress">
+        <span>70%</span>
+      </div>
+        <h3 class="text-uppercase">Graphic Design</h3>
+      </div>
+      <div class="col-sm-3">
+      <div class="skill">
+        <img src="progress4.png" class="img-responsive" alt="progress">
+        <span>85%</span>
+      </div>
+        <h3 class="text-uppercase">UI / UX</h3>
+      </div>
+    </div>
+</section>
+
+<!-- --------------Skill End------------------ -->
+
+<!-- --------------Portfolio Start------------------ -->
+
+<section id="portfolio-section">
+   <div class="container text-center">
+    <div class="header">
+      <h1 class="text-uppercase">Our Portfolio</h1>
+      <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="list-inline list-unstyled portfolio">
+          <li>All</li>
+          <li>Web</li>
+          <li>Apps</li>
+          <li>Icons</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="portfolio_gallery">
+          <img src="project-1.png" class="img-responsive" alt="project-1">
+          <p>Isometric Perspective Mock-Up</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="portfolio_gallery">
+          <img src="project-2.png" class="img-responsive" alt="project-2">
+          <p>Time Zone App UI</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="portfolio_gallery">
+          <img src="project-3.png" class="img-responsive" alt="project-3">
+          <p>Viro Media Players UI copy 2</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="portfolio_gallery">
+          <img src="project-4.png" class="img-responsive" alt="project-4">
+          <p>Blog / Magazine Flat UI Kit</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+<!-- --------------Portfolio End------------------ -->
+
+<!-- --------------About Start------------------ -->
+
+<section id="about-section">
+   <div class="container">
+     
+     <div class="header text-center">
+       <h1>What Poeple Say About Us</h1>
+       <p>Our clients love us!</p>
+     </div>
+
+     <div class="row">
+       <div class="col-sm-6 about">
+         <div class="row intro">
+           <div class="col-sm-2">
+             <img src="chanel_iman_96px.jpg" class="img-circle" class="img-responsive">
+           </div>
+           <div class="col-sm-10 space">
+             <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+             <h3>Chanel Iman </h3>
+             <h6>CEO of Pinterest</h6>
+           </div>
+         </div> <!-- row end-->
+       </div> <!--col sm 8 end-->
+
+       <div class="col-sm-6 about">
+         <div class="row">
+           <div class="col-sm-2">
+             <img src="adriana_lima_96px.jpg" class="img-circle" class="img-responsive">
+           </div>
+           <div class="col-sm-10 space">
+             <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+             <h3>Adriana Lima </h3>
+             <h6>Founder of Instagram</h6>
+           </div>
+         </div> <!-- row end-->
+       </div> <!--col sm 8 end-->
+
+       <div class="col-sm-6 about">
+         <div class="row">
+           <div class="col-sm-2">
+             <img src="anne_hathaway_96px.jpg" class="img-circle" class="img-responsive">
+           </div>
+           <div class="col-sm-10 space">
+             <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+             <h3>Anne Hathaway </h3>
+             <h6>Lead Designer at Behance</h6>
+           </div>
+         </div> <!-- row end-->
+       </div> <!--col sm 8 end-->
+
+       <div class="col-sm-6 about">
+         <div class="row">
+           <div class="col-sm-2">
+             <img src="emma_stone_96px.jpg" class="img-circle" class="img-responsive">
+           </div>
+           <div class="col-sm-10 space">
+             <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+             <h3>Emma Stone </h3>
+             <h6>Co-Founder of Shazam</h6>
+           </div>
+         </div> <!-- row end-->
+       </div> <!--col sm 8 end-->
+     </div> <!-- row end-->
+
+   </div>
+</section>
+
+<!-- --------------About End------------------ -->
+
+<!-- --------------Contact Start------------------ -->
+<section id="contact-section">
+  <div class="container text-center">
+    <div class="header">
+      <h1 class="text-uppercase">Get In Touch</h1>
+      <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+    </div> <!--header end-->
+
+    <div class="row">
+      <div class="col-sm-8 get-intouch">
+        
+      <form>
+        <div class="form-group">
+          <input type="text" name="" class="form-control" placeholder="Your Name*">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" class="form-control" placeholder="Your Email*">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="6" placeholder="Your Message*"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" name="" class="btn btn-custom" value="SEND MESSAGE">
+        </div>
+      </form>
+      </div>  <!--CoL end-->
+    </div> <!--row end-->
+
+  </div> <!--Container end-->
+</section>
+
+<!-- --------------Contact End------------------ -->
+<!-- --------------Footer Start------------------ -->
+
+<section id="footer-section">
+  <div class="container">
+    <ul class="nav nav-pills">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Google+</a></li> 
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Behance</a></li>
+        <li><a href="#">Dribble</a></li>
+        <li><a href="#">Github</a></li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+<!-- --------------Footer End------------------ -->
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</script>
+<script src="isotope.pkgd.min.js" type="text/javascript"></script>
+</body>
+</html>
